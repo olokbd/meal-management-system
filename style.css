@@ -1,0 +1,119 @@
+.navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #1d4088;
+}
+.navbar li{
+    float: left;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    display: block;
+    text-align: center;
+}
+.active{
+    background-color: orange;
+}
+.navbar li a:hover:not(.active){
+    background-color: grey;
+}
+.bazar{
+    border: 2px solid black;
+    width: 80%
+    height: auto;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+.bazar h1{
+    text-align: center;
+    margin-top: 0;
+    background-color: #7537b3;
+    color: white;
+    border-radius: 20px;
+    display: block;
+}
+p{
+    text-align: center;
+    display: block;
+    margin-top: -20px;
+    color: black;
+}
+.table{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: -25px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    font-family: arial;
+}
+th{
+    border: 2px solid black;
+    text-align: center;
+    background-color: #006600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+td{
+    border: 1px solid green;
+    padding: 6px;
+}
+tr:nth-child(even){
+    background-color: #e6ffe6;
+}
+tr:hover{
+    background-color: #99ffff;
+}
+form{
+    font-size: 20px;
+    font-family: arial;
+}
+input[type=text], input[type=password]{
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+input[type=submit]{
+    background-color: blue;
+    width: 20%;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: 
+}
+.login-form a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    display: block;
+    width: 20%;
+    height: 20px;
+    border-radius: 10px;
+}
+.rules{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: arial;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.bazar a{
+    background-color: #004d00;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
